@@ -1,0 +1,86 @@
+hotkeys:
+  shell: {}
+  new-tab:
+    - - Ctrl-Shift-T
+  zoom-out:
+    - - Ctrl-Shift-6
+  zoom-in:
+    - - Ctrl-Shift-+
+  close-tab:
+    - - Ctrl-Shift-W
+  next-tab:
+    - - Ctrl-Tab
+    - - Ctrl-PageDown
+  previous-tab:
+    - - Ctrl-Shift-Tab
+    - - Ctrl-PageUp
+  tab-1:
+    - - Ctrl-Shift-1
+  tab-2:
+    - - Ctrl-Shift-2
+  tab-3:
+    - - Ctrl-Shift-3
+  tab-4:
+    - - Ctrl-Shift-4
+  tab-5:
+    - - Ctrl-Shift-5
+  tab-6:
+    - - Ctrl-Shift-6
+  tab-7:
+    - - Ctrl-Shift-7
+  tab-8:
+    - - Ctrl-Shift-8
+  tab-9:
+    - - Ctrl-Shift-9
+  tab-10:
+    - - Ctrl-Shift-0
+ssh:
+  connections:
+    - name: ap20presariosrv-remote-granny_network-custom_ssh_port-password_2fa
+      host: granny-network.ddns.net
+      port: 54011
+      user: francois
+      group: ap20presariosrv
+terminal:
+  colorScheme:
+    name: Solarized Dark
+    foreground: '#708284'
+    background: '#001e27'
+    cursor: '#708284'
+    colors:
+      - '#002831'
+      - '#d11c24'
+      - '#738a05'
+      - '#a57706'
+      - '#2176c7'
+      - '#c61c6f'
+      - '#259286'
+      - '#eae3cb'
+      - '#001e27'
+      - '#bd3613'
+      - '#475b62'
+      - '#536870'
+      - '#708284'
+      - '#5956ba'
+      - '#819090'
+      - '#fcf4dc'
+  frontend: hterm
+  ligatures: false
+  background: colorScheme
+  cursor: block
+  font: DejaVu Sans Mono
+  fontSize: 16
+  environment: {}
+  shell: /bin/bash
+  bell: visual
+  bracketedPaste: true
+  scrollOnInput: true
+  altIsMeta: true
+appearance:
+  css: ''
+  dock: 'off'
+enableAnalytics: false
+pluginBlacklist: []
+vibrancy: true
+vibrancyType: blur
+titleControl: {}
