@@ -9,11 +9,9 @@ hotkeys:
   close-tab:
     - - Ctrl-Shift-W
   next-tab:
-    - - Ctrl-Tab
-    - - Ctrl-PageDown
+    - - Ctrl-Shift-D
   previous-tab:
-    - - Ctrl-Shift-Tab
-    - - Ctrl-PageUp
+    - - Ctrl-Shift-Q
   tab-1:
     - - Ctrl-Shift-1
   tab-2:
@@ -34,13 +32,11 @@ hotkeys:
     - - Ctrl-Shift-9
   tab-10:
     - - Ctrl-Shift-0
+  ctrl-c: []
+  toggle-last-tab:
+    - - Ctrl-Shift-Z
 ssh:
-  connections:
-    - name: ap20presariosrv-remote-granny_network-custom_ssh_port-password_2fa
-      host: granny-network.ddns.net
-      port: 54011
-      user: francois
-      group: ap20presariosrv
+  connections: []
 terminal:
   colorScheme:
     name: Solarized Dark
@@ -64,7 +60,7 @@ terminal:
       - '#5956ba'
       - '#819090'
       - '#fcf4dc'
-  frontend: hterm
+  frontend: xterm
   ligatures: false
   background: colorScheme
   cursor: block
@@ -73,12 +69,13 @@ terminal:
   environment: {}
   shell: /bin/bash
   bell: visual
-  bracketedPaste: true
+  bracketedPaste: false
   scrollOnInput: true
   altIsMeta: true
 appearance:
   css: ''
   dock: 'off'
+  opacity: 1
 enableAnalytics: false
 pluginBlacklist: []
 vibrancy: true
