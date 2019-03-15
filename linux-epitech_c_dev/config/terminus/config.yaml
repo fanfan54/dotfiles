@@ -35,6 +35,11 @@ hotkeys:
   ctrl-c: []
   toggle-last-tab:
     - - Ctrl-Shift-Z
+  profile: {}
+  split-right:
+    - - Ctrl-Shift-S
+  split-bottom:
+    - - Ctrl-Shift-B
 ssh:
   connections: []
 terminal:
